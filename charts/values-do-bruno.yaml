@@ -70,7 +70,7 @@ nodepools:
   # machineDeploymentAnnotations: {}
 
   # specify nodepool name
-  name: bruno-digitalocean-nodepool-1
+  name: bruno-digitalocean-nodepool
 
   # enable backups for droplet
   # backups: true

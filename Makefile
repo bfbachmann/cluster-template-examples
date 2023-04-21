@@ -10,5 +10,5 @@ install: printconfig
 	helm --kube-insecure-skip-tls-verify install --namespace fleet-default --values $(VALUES) $(RELEASE) ./charts
 
 .PHONY: upgrade
-install: printconfig
+upgrade: printconfig
 	helm --kube-insecure-skip-tls-verify upgrade --install --namespace fleet-default --values $(VALUES) $(RELEASE) ./charts
